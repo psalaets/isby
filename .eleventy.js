@@ -10,8 +10,8 @@ const postCssProcessor = postcss([
 ]);
 
 module.exports = function(eleventyConfig) {
-  eleventyConfig.addFilter('tail', function(array, count) {
-    return array.slice(-count);
+  eleventyConfig.addFilter('head', function(array, count) {
+    return array.slice(0, count);
   });
 
   eleventyConfig.addPairedShortcode('style', function(rawCss) {

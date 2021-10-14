@@ -50,12 +50,7 @@
     }
 
     a, a:visited, a:active {
-      color: #000;
-      text-decoration: none;
-    }
-
-    a:hover, a:focus {
-      text-decoration: underline;
+      color: #0969da;
     }
 
     .links {
@@ -70,9 +65,16 @@
   <main>
     <h1 class="sr-only">Is Saga back yet?</h1>
 
-    {% for entry in entries | tail(1) %}
+    {% for entry in entries | head(1) %}
       <div class="entry">
-        <p class="entry__answer">{{ entry.answer }}</p>
+        {% if entry.url %}
+          <p class="entry__answer">
+            <a href="{{entry.url}}">{{ entry.answer }}</a>
+          </p>
+        {% else %}
+          <p class="entry__answer">{{ entry.answer }}</p>
+        {% endif %}
+
         {% if entry.blurb %}
           <aside>({{ entry.blurb }})</aside>
         {% endif %}
@@ -80,7 +82,7 @@
     {% endfor %}
 
     <div class="links">
-      <a href="http://www.thesagashop.com/" rel="noopener">The Saga Shop</a>
+      <a href="http://www.thesagashop.com/" rel="noopener">Visit the Saga Shop</a>
     </div>
   </main>
 </body>
