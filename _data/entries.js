@@ -2,6 +2,12 @@ module.exports = [
   {
     answer: 'Soon',
     url: 'https://imagecomics.com/comics/releases/saga-55',
+    blurb: 'January, 22, 2022',
+    date: '2021-10-22'
+  },
+  {
+    answer: 'Soon',
+    url: 'https://imagecomics.com/comics/releases/saga-55',
     blurb: null,
     date: '2021-10-22'
   },
