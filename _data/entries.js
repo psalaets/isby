@@ -2,8 +2,8 @@ module.exports = [
   {
     answer: 'Soon',
     url: 'https://imagecomics.com/comics/releases/saga-55',
-    blurb: 'January 22, 2022',
-    date: '2021-10-22'
+    blurb: 'January 26, 2022',
+    date: '2022-01-15'
   },
   {
     answer: 'Soon',
