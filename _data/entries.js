@@ -1,5 +1,11 @@
 module.exports = [
   {
+    answer: 'Yes',
+    url: 'https://imagecomics.com/comics/series/saga',
+    blurb: 'Chapter 61 on January 25, 2023',
+    date: '2022-01-18'
+  },
+  {
     answer: 'Soon',
     url: 'https://imagecomics.com/comics/series/saga',
     blurb: 'Chapter 61 on January 25, 2023',
