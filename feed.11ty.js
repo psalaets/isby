@@ -20,10 +20,12 @@ module.exports = createRssFeed({
     return data.entries
       .slice()
       .reverse()
+      .map((item, index) => ({...item, guid: index}))
       .slice(-entryCount);
   },
   itemOptions(item) {
     return {
+      guid: item.guid,
       title: item.answer,
       description: item.blurb || undefined,
       url: item.url || siteUrl,
