@@ -15,9 +15,9 @@ module.exports = createRssFeed({
     };
   },
   items(_collections, data) {
-    // 5 most recent updates
     const entryCount = 5;
-    return data.entries.slice(0, entryCount);
+    // 5 most recent updates
+    return data.entries.reverse().slice(-entryCount);
   },
   itemOptions(item) {
     return {
