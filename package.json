@@ -18,5 +18,8 @@
   },
   "browserslist": [
     "defaults"
-  ]
+  ],
+  "dependencies": {
+    "eleventy-rss-helper": "^1.2.1"
+  }
 }
