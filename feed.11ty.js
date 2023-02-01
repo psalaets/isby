@@ -15,13 +15,12 @@ module.exports = createRssFeed({
     };
   },
   items(_collections, data) {
-    const entryCount = 5;
-    // 5 most recent updates
     return data.entries
       .slice()
+      // The entries array is in reverse chronological order but here need to
+      // render oldest first
       .reverse()
-      .map((item, index) => ({...item, guid: index}))
-      .slice(-entryCount);
+      .map((item, index) => ({...item, guid: index}));
   },
   itemOptions(item) {
     return {
