@@ -1,10 +1,16 @@
 module.exports = [
   {
+    answer: 'Not yet',
+    url: null,
+    blurb: 'Chapter 67 in early 2024',
+    date: '2023-10-09'
+  },
+  {
     answer: 'Yes',
     url: 'https://imagecomics.com/comics/releases/saga-66-mr',
     blurb: 'Chapter 66 on September 20, 2023',
     date: '2023-09-12'
-  },  
+  },
   {
     answer: 'Soon',
     url: 'https://imagecomics.com/comics/releases/saga-66-mr',
