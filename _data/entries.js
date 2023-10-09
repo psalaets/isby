@@ -1,6 +1,6 @@
 module.exports = [
   {
-    answer: 'Not yet',
+    answer: 'No',
     url: null,
     blurb: 'Chapter 67 in early 2024',
     date: '2023-10-09'
