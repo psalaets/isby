@@ -1,4 +1,10 @@
 module.exports = [
+{
+    answer: 'No',
+    url: null,
+    blurb: 'Chapter 67 in July 2024',
+    date: '2024-03-26'
+  },
   {
     answer: 'No',
     url: null,
