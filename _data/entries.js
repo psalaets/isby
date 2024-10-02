@@ -1,6 +1,12 @@
 module.exports = [
   {
     answer: 'Yes',
+    url: 'https://imagecomics.com/comics/releases/saga-70',
+    blurb: 'Chapter 70 on October 30, 2024',
+    date: '2024-10-02'
+  },
+  {
+    answer: 'Yes',
     url: 'https://imagecomics.com/comics/releases/saga-69',
     blurb: 'Chapter 69 on September 25, 2024',
     date: '2024-09-04'
