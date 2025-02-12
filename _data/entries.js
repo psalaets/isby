@@ -2,6 +2,12 @@ module.exports = [
   {
     answer: 'Yes',
     url: 'https://imagecomics.com/comics/releases/saga-72',
+    blurb: 'Chapter 72 on March 19, 2025',
+    date: '2024-02-12'
+  },
+  {
+    answer: 'Yes',
+    url: 'https://imagecomics.com/comics/releases/saga-72',
     blurb: 'Chapter 72 on March 12, 2025',
     date: '2024-02-05'
   },
